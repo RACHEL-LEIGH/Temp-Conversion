@@ -1,0 +1,16 @@
+//temp in Kelvin remains constant
+const kelvin = 310;
+//temp is Celsius is 273 less than K
+const celsius = kelvin - 273;
+//formula for calculating F
+let fahrenheit = celsius * (9/5) + 32;
+//round the temp down to nearest integer
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+(Celsius to Newton)
+
+let newton = celsius * (33/100);
+newton = Math.floor(newton);
+console.log(`The temperature is ${newton} degrees Newton.`);
